@@ -1,9 +1,9 @@
 # Maintainer: sfslinux@gmail.com
 
 pkgname=screentest
-pkgver=3.0.r5.gf30e3fc
-pkgrel=3
-pkgdesc="tesing the quality of CRT/LCD screens"
+pkgver=r86.f30e3fc
+pkgrel=1
+pkgdesc="Tesing the quality of CRT/LCD screens"
 arch=('x86_64')
 #url="https://github.com/TobiX/screentest"
 url="https://github.com/sfs-pra/screentest"
@@ -15,7 +15,8 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd $pkgname
-  git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+#  git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
