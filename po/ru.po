@@ -10,11 +10,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-10 13:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: sfs <sfslinux@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../main.c:52
@@ -22,79 +22,81 @@ msgid ""
 "The interface definition file was not found.\n"
 "Please make sure this program is installed correctly."
 msgstr ""
+"Файл определения интерфейса не найден.\n"
+"Пожалуйста, убедитесь, что программа установлена правильно."
 
 #: ../callbacks.c:182
 #, c-format
 msgid "No implementation for the test \"%s\" found."
-msgstr ""
+msgstr "Реализация для теста \"%s\" не найдена."
 
 #: ../test_basic.c:75
 msgid "Left Button - param cycle, if any"
-msgstr ""
+msgstr "Левая кнопка - перебор параметров (если есть)"
 
 #: ../test_basic.c:76
 msgid "Middle Button - color cycle"
-msgstr ""
+msgstr "Средняя кнопка - перебор цветов"
 
 #: ../test_basic.c:77
 msgid "Right Button - menu"
-msgstr ""
+msgstr "Правая кнопка - меню"
 
 #: ../screentest.ui.h:1
 msgid "Screen test"
-msgstr ""
+msgstr "Тест экрана"
 
 #: ../screentest.ui.h:2
 msgid "Select Foreground color"
-msgstr ""
+msgstr "Выбрать цвет переднего плана"
 
 #: ../screentest.ui.h:3
 msgid "Select Background color"
-msgstr ""
+msgstr "Выбрать цвет фона"
 
 #: ../screentest.ui.h:4
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #: ../screentest.ui.h:5
 msgid "Basic"
-msgstr ""
+msgstr "Базовый"
 
 #: ../screentest.ui.h:6
 msgid "Grid"
-msgstr ""
+msgstr "Сетка"
 
 #: ../screentest.ui.h:7
 msgid "Horizontal"
-msgstr ""
+msgstr "Горизонтальный"
 
 #: ../screentest.ui.h:8
 msgid "Vertical"
-msgstr ""
+msgstr "Вертикальный"
 
 #: ../screentest.ui.h:9
 msgid "Blink"
-msgstr ""
+msgstr "Мигание"
 
 #: ../screentest.ui.h:10
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: ../screentest.ui.h:11
 msgid "LCD Alignment"
-msgstr ""
+msgstr "Выравнивание LCD"
 
 #: ../screentest.ui.h:12
 msgid "Foreground Color"
-msgstr ""
+msgstr "Цвет переднего плана"
 
 #: ../screentest.ui.h:13
 msgid "Background Color"
-msgstr ""
+msgstr "Цвет фона"
 
 msgid "Bright Pixels"
-msgstr ""
+msgstr "Яркие пиксели"
 
 msgid "Gradient"
-msgstr ""
+msgstr "Градиент"
 
