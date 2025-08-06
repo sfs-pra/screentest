@@ -19,10 +19,11 @@ screentest_deps = [
 prefix = get_option('prefix')
 datadir = join_paths(prefix, get_option('datadir'))
 localdir = join_paths(datadir, 'local')
+localedir = get_option('prefix') / get_option('localedir')
 
 config_h = configuration_data()
 config_h.set_quoted('DATADIR', datadir)
-config_h.set_quoted('LOCALEDIR', localdir)
+config_h.set_quoted('LOCALEDIR', localedir)
 config_h.set_quoted('PACKAGE', meson.project_name())
 config_h.set_quoted('PACKAGE_NAME', meson.project_name())
 config_h.set_quoted('VERSION', meson.project_version())
